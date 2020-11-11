@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Couleur_secondaire"
+    android:orientation="vertical"
+    tools:context="controller.GameActivity"
+    >
+
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Question?"
+            android:textColor="@color/orange"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="15dp"></TextView>
+
+        <Button
+            android:id="@+id/Rep_BT1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/orange"
+            android:background="@android:color/white"
+            android:textSize="20sp"
+            android:text="Réponse_1"/>
+
+        <Button
+            android:id="@+id/Rep_BT2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/orange"
+            android:background="@android:color/white"
+            android:textSize="20sp"
+            android:text="Réponse_2"/>
+
+        <Button
+            android:id="@+id/Rep_BT3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/orange"
+            android:background="@android:color/white"
+            android:textSize="20sp"
+            android:text="Réponse_3"/>
+
+        <Button
+            android:id="@+id/Rep_BT4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="@color/orange"
+            android:background="@android:color/white"
+            android:textSize="20sp"
+            android:text="Reponse_4"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/orange"
+    tools:context="controller.MainActivity"
+    >
+
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenue"
+        android:layout_gravity="center"
+        android:textColor="@color/Couleur_primaire"
+        android:textSize="36dp"
+        android:background="@color/orange"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262" />
+
+
+    //*//
+
+    <EditText
+        android:id="@+id/Prenom_input"
+        android:layout_width="394dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_margin="120dp"
+        android:background="@color/colorSwitchThumbNormal"
+        android:gravity="center_horizontal"
+        android:text="Entrez votre Prénom"
+        android:textAlignment="center"
+        android:textColor="@color/Couleur_secondaire"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:layout_marginRight="20in"
+        app:layout_constraintBottom_toTopOf="@+id/BT_Valider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome"
+        app:layout_constraintVertical_bias="0.498"
+        tools:ignore="HardcodedText,MissingConstraints,UnknownId"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/BT_Valider"
+        android:layout_width="150dp"
+        android:layout_height="77dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@color/colorSwitchThumbNormal"
+        android:padding="10dp"
+        android:text="@string/valider"
+        android:textColor="@color/Couleur_primaire"
+        android:textStyle="bold" />
+    </LinearLayout>

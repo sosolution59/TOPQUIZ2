@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Couleur_primaire">#6200EE</color>
+    <color name="Couleur_secondaire">#3700B3</color>
+    <color name="colorSwitchThumbNormal">#FFA07A</color>
+    <color name="orange">#c27e00</color>
+    <color name="colorAccent">#03DAC5</color>
+</resources>

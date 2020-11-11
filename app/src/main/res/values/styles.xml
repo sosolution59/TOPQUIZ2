@@ -1,0 +1,12 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Couleur_primaire</item>
+        <item name="colorPrimaryDark">@color/Couleur_secondaire</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSwitchThumbNormal">@color/colorSwitchThumbNormal</item>
+"
+    </style>
+
+</resources>
